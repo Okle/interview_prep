@@ -1,0 +1,11 @@
+#code
+T = int(input())
+for it in range(T):
+
+    nx = input().split()
+
+    n = int(nx[0])
+
+    x = int(nx[1])
+
+    arr = list(map(int, input().rstrip().split()))
